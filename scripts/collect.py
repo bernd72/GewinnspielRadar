@@ -143,7 +143,9 @@ def main():
                 r.raise_for_status()
                 if "html" not in r.headers.get("Content-Type", "text/html") or len(r.content) > 3_000_000:
                     raise ValueError("Keine unterstützte HTML-Seite")
-                items = extract(name, url, r.text, today)
+                # Webseiten können UTF-8 senden, ohne die Kodierung korrekt im Header anzugeben.
+                html = r.content.decode("utf-8", errors="replace")
+                items = extract(name, url, html, today)
                 if not items:
                     raise ValueError("Keine gültigen Einträge gefunden; HTML-Struktur prüfen")
                 for item in items:
