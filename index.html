@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101827">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Deine Übersicht neuer Gewinnspiele: automatisch gesammelt, lokal markiert, ohne Anmeldung.">
+  <title>GewinnspielRadar</title>
+  <link rel="icon" type="image/svg+xml" href="./icon.svg">
+  <style>
+    :root{color-scheme:dark;--bg:#0c1422;--panel:#152134;--panel2:#18273e;--line:#2d3c52;--text:#eef3fc;--muted:#a6b5cb;--accent:#75b9ff;--success:#8bd8b4;--radius:18px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.45}
+    .wrap{max-width:1080px;margin:auto;padding:18px 18px 90px}header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 0 24px}
+    .brand{display:flex;align-items:center;gap:11px}.brand img{width:40px;height:40px}.brand h1{font-size:1.5rem;margin:0;letter-spacing:-.5px}.brand small{display:block;color:var(--muted);font-size:.82rem}
+    button,input,select{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+    .button{display:inline-flex;align-items:center;justify-content:center;gap:8px;white-space:nowrap;border:1px solid var(--line);color:var(--text);background:var(--panel2);border-radius:13px;padding:10px 14px;text-decoration:none;min-height:43px}
+    .button:hover{border-color:var(--accent)}.button.primary{background:#2a5e91;border-color:#4081c4;font-weight:650}.button.tiny{padding:8px 11px;min-height:37px;font-size:.9rem}.button.active{border-color:#82c2f6;background:#234361}
+    .heading{margin:5px 0 16px}.heading h2{font-size:clamp(1.5rem,4vw,2.25rem);letter-spacing:-.7px;line-height:1.13;margin:0 0 8px}.heading p{color:var(--muted);margin:0;max-width:710px}
+    .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:21px 0 15px}.stat{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:14px}.stat strong{display:block;font-size:1.75rem;letter-spacing:-.7px}.stat span{font-size:.86rem;color:var(--muted)}
+    .notice{margin:13px 0;border:1px solid var(--line);border-radius:14px;padding:12px 14px;color:var(--muted);font-size:.9rem}.notice strong{color:var(--text)}
+    .controls{display:grid;grid-template-columns:minmax(0,1fr) 180px 180px;gap:10px;margin:20px 0 10px}input[type="search"],select{width:100%;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--text);padding:12px 13px;min-height:46px}
+    .tabs{display:flex;gap:7px;overflow:auto;padding-bottom:7px;margin:6px 0 14px}.tabs button{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:22px;padding:9px 14px;flex-shrink:0}.tabs button[aria-selected="true"]{background:var(--panel2);color:var(--text);border-color:#658ab2}
+    .result-header{display:flex;justify-content:space-between;align-items:center;gap:12px;color:var(--muted);font-size:.89rem;margin:11px 2px 12px}
+    .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.card{border:1px solid var(--line);background:var(--panel);border-radius:var(--radius);padding:17px;display:flex;flex-direction:column;min-width:0;gap:11px}
+    .card-top{display:flex;gap:12px;align-items:flex-start;justify-content:space-between}.card h3{font-size:1.08rem;line-height:1.3;margin:0;overflow-wrap:anywhere}.card .meta{font-size:.88rem;color:var(--muted);overflow-wrap:anywhere}.card .meta b{color:var(--text);font-weight:550}
+    .tagbar{display:flex;flex-wrap:wrap;gap:7px}.tag{border:1px solid var(--line);border-radius:20px;color:var(--muted);font-size:.77rem;padding:4px 9px}.tag.region{border-color:#719eaa;color:#b2e9e6}
+    .card .actions{margin-top:auto;display:flex;flex-wrap:wrap;gap:7px}.card .actions a{flex:1;min-width:120px}.iconbtn{border:1px solid var(--line);color:var(--text);background:var(--panel2);width:42px;height:42px;border-radius:12px;font-size:1.14rem}.iconbtn.on{color:#ffe0a2;border-color:#d1aa68}.help{font-size:.83rem;color:var(--muted)}
+    .empty{grid-column:1/-1;text-align:center;padding:48px 15px;border:1px dashed var(--line);border-radius:var(--radius);color:var(--muted)}.empty strong{display:block;color:var(--text);font-size:1.2rem;margin-bottom:6px}
+    .footer{margin-top:28px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}.toolrow{display:flex;gap:9px;flex-wrap:wrap;margin:18px 0}.toolrow .button{font-size:.89rem}
+    @media(max-width:720px){.wrap{padding:12px 12px 80px}.cards{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}header{padding:7px 0 20px}.brand h1{font-size:1.25rem}.brand img{width:35px;height:35px}.button span.hide-on-small{display:none}}
+    @media(prefers-reduced-motion:no-preference){.card,.button{transition:border-color .15s ease,background .15s ease}}
+  </style>
+</head>
+<body><div class="wrap">
+  <header>
+    <div class="brand"><img src="./icon.svg" alt=""><div><h1>GewinnspielRadar</h1><small>Neue Chancen. Wenig Aufwand.</small></div></div>
+    <button class="button" id="refresh" type="button" aria-label="Daten neu laden">↻ <span class="hide-on-small">Aktualisieren</span></button>
+  </header>
+  <main>
+    <section class="heading"><h2>Gewinnspiele im Blick.</h2><p>Öffentliche Gewinnspiele finden, filtern und im Browser verwalten – ohne Anmeldung und ohne Weitergabe deiner Kontaktdaten.</p></section>
+    <section class="stats" aria-label="Übersicht">
+      <div class="stat"><strong id="nAll">–</strong><span>Gefundene Einträge</span></div>
+      <div class="stat"><strong id="nRegion">–</strong><span>Regionaler Bezug</span></div>
+      <div class="stat"><strong id="nStar">–</strong><span>Interessant</span></div>
+      <div class="stat"><strong id="nDone">–</strong><span>Erledigt</span></div>
+    </section>
+    <div class="notice" id="status" role="status">Lade Einträge …</div>
+    <section class="controls" aria-label="Suche und Sortierung">
+      <input id="query" type="search" placeholder="Gewinn, Veranstalter oder Ort suchen" aria-label="Gewinnspiele durchsuchen">
+      <select id="source" aria-label="Quelle"><option value="">Alle Quellen</option></select>
+      <select id="sort" aria-label="Sortierung"><option value="deadline">Endet zuerst</option><option value="new">Neueste zuerst</option><option value="title">Titel A–Z</option></select>
+    </section>
+    <div class="tabs" role="tablist" aria-label="Ansicht wählen">
+      <button role="tab" type="button" data-tab="all" aria-selected="true">Alle</button>
+      <button role="tab" type="button" data-tab="region" aria-selected="false">Regional</button>
+      <button role="tab" type="button" data-tab="star" aria-selected="false">Interessant</button>
+      <button role="tab" type="button" data-tab="todo" aria-selected="false">Offen</button>
+      <button role="tab" type="button" data-tab="done" aria-selected="false">Erledigt</button>
+    </div>
+    <div class="result-header"><span id="results" aria-live="polite">…</span><span>Prüfung beim Veranstalter nötig</span></div>
+    <section class="cards" id="cards" aria-label="Gefundene Gewinnspiele"></section>
+    <section class="toolrow" aria-label="Meine Markierungen">
+      <button class="button tiny" id="export" type="button">↓ Markierungen sichern</button>
+      <button class="button tiny" id="import" type="button">↑ Markierungen laden</button>
+      <input type="file" id="importFile" accept="application/json,.json" hidden>
+    </section>
+  </main>
+  <footer class="footer">Die Quellen liefern Hinweise, keine geprüften Teilnahmeempfehlungen. Kostenlosigkeit, Datenschutz, Regeln und Seriosität immer auf der Veranstalterseite prüfen. Keine automatische Teilnahme. Favoriten und Erledigt-Markierungen werden nur in diesem Browser gespeichert, nicht zwischen Geräten synchronisiert. <span id="updated"></span></footer>
+</div>
+<script>
+'use strict';
+const $ = id => document.getElementById(id);
+const STORAGE_KEY = 'gewinnspielradar-markierungen-v1';
+const fallback = { mode: 'demo', updated_at: '2026-11-05T18:00:00+01:00', sources: [], items: [
+  {id:'demo-wicklein',title:'Lebkuchenpakete und Nürnberg-Aufenthalte',organizer:'Wicklein',deadline:'2026-12-31',url:'https://wicklein.de/highlights/gewinnspiel-zum-wicklein-lebkuchenstart',source:'Beispiel',found_at:'2026-11-05',region:false},
+  {id:'demo-rindchen',title:'10 Gutscheine zu je 50 Euro',organizer:'Rindchen',deadline:'2026-11-30',url:'https://www.rindchen.de/service/teilnahmebedingung-gewinnspiel-november/',source:'Beispiel',found_at:'2026-11-05',region:false},
+  {id:'demo-stilbruch',title:'Geld- und Sachpreise',organizer:'Stilbruch',deadline:'2026-11-29',url:'https://stilbruch-mode.de/pages/gewinnspiel',source:'Beispiel',found_at:'2026-11-05',region:false},
+  {id:'demo-sauerland',title:'Reisegutschein und Erlebnisse',organizer:'Schmallenberger Sauerland',deadline:'2026-12-31',url:'https://www.schmallenberger-sauerland.de/besonderes/magazin-gewinnspiel-2026',source:'Beispiel',found_at:'2026-11-05',region:false}
+]};
+let dataset = fallback, tab='all';
+let marks = {};
+try { const raw = JSON.parse(localStorage.getItem(STORAGE_KEY)||'{}'); if(raw && typeof raw==='object' && !Array.isArray(raw)) marks=raw; } catch {}
+const save = () => {try{localStorage.setItem(STORAGE_KEY, JSON.stringify(marks));}catch{alert('Speichern im Browser ist blockiert.')}};
+const mark = id => marks[id] || {};
+function dateDE(s){if(!s)return 'Nicht bekannt';const d=new Date(s+'T12:00:00');return isNaN(d) ? 'Nicht bekannt' : new Intl.DateTimeFormat('de-DE',{dateStyle:'medium'}).format(d);}
+function safeUrl(raw){try{const u=new URL(raw);return ['https:','http:'].includes(u.protocol)?u.href:null;}catch{return null;}}
+function el(tag, className, text){const n=document.createElement(tag);if(className)n.className=className;if(text!==undefined)n.textContent=text;return n;}
+function statusMessage(s){$('status').textContent=s;}
+function render(){
+  const items=(Array.isArray(dataset.items)?dataset.items:[]).filter(it=>it&&it.id&&it.title);
+  const today=new Date().toLocaleDateString('sv-SE');
+  const live=items.filter(it=> !it.deadline || it.deadline >= today);
+  $('nAll').textContent=live.length;$('nRegion').textContent=live.filter(x=>x.region).length;
+  $('nStar').textContent=live.filter(x=>mark(x.id).star).length;$('nDone').textContent=live.filter(x=>mark(x.id).done).length;
+  const chosen=$('source').value;
+  const names=[...new Set(live.map(x=>x.source).filter(Boolean))].sort();
+  $('source').replaceChildren(new Option('Alle Quellen',''),...names.map(n=>new Option(n,n)));
+  if(names.includes(chosen))$('source').value=chosen;
+  const q=$('query').value.trim().toLocaleLowerCase('de-DE');
+  let list=live.filter(it=>{
+    const m=mark(it.id);
+    if(tab==='region'&&!it.region || tab==='star'&&!m.star || tab==='done'&&!m.done || tab==='todo'&&m.done)return false;
+    if($('source').value&&$('source').value!==it.source)return false;
+    return !q || [it.title,it.organizer,it.source].join(' ').toLocaleLowerCase('de-DE').includes(q);
+  });
+  const sort=$('sort').value;
+  list.sort((a,b)=> sort==='title'?a.title.localeCompare(b.title,'de') : sort==='new'?(b.found_at||'').localeCompare(a.found_at||'') : (a.deadline||'9999').localeCompare(b.deadline||'9999'));
+  $('results').textContent=`${list.length} von ${live.length} Einträgen`;
+  const cards=$('cards');cards.replaceChildren();
+  if(!list.length){let box=el('div','empty');box.append(el('strong','',live.length?'Keine passenden Treffer':'Noch keine aktuellen Einträge'),el('div','',live.length?'Filter ändern oder Suchbegriff löschen.':'Führe in GitHub unter „Actions“ den Suchlauf aus.'));cards.append(box);return;}
+  for(const it of list){
+    const m=mark(it.id), card=el('article','card');
+    const top=el('div','card-top'), title=el('h3','',it.title), star=el('button','iconbtn'+(m.star?' on':''),m.star?'★':'☆');
+    star.type='button';star.title=m.star?'Nicht mehr interessant':'Als interessant markieren';star.setAttribute('aria-label',star.title);
+    star.addEventListener('click',()=>{marks[it.id]={...mark(it.id),star:!mark(it.id).star};save();render();});
+    top.append(title,star);card.append(top);
+    const org=el('div','meta');org.append(el('b','',it.organizer||'Veranstalter nicht erfasst'),document.createTextNode(' · Quelle: '+(it.source||'Unbekannt')));card.append(org);
+    const tags=el('div','tagbar');tags.append(el('span','tag','Frist: '+dateDE(it.deadline)));
+    if(it.region)tags.append(el('span','tag region','Regionaler Bezug'));
+    if(it.last_seen && it.last_seen < new Date(Date.now()-3*86400000).toLocaleDateString('sv-SE')) tags.append(el('span','tag','Zuletzt gesehen: '+dateDE(it.last_seen)));
+    if(m.done)tags.append(el('span','tag','Erledigt'));
+    if(it.source==='Beispiel'||dataset.mode==='demo')tags.append(el('span','tag','Beispiel'));
+    card.append(tags);
+    card.append(el('div','help','Teilnahmebedingungen nicht automatisch geprüft.'));
+    const actions=el('div','actions');
+    const url=safeUrl(it.url);if(url){const a=el('a','button primary','↗ Gewinnspiel öffnen');a.href=url;a.target='_blank';a.rel='noopener noreferrer';actions.append(a);}
+    const done=el('button','button'+(m.done?' active':''),m.done?'✓ Erledigt':'Als erledigt');done.type='button';done.addEventListener('click',()=>{marks[it.id]={...mark(it.id),done:!mark(it.id).done};save();render();});actions.append(done);
+    card.append(actions);cards.append(card);
+  }
+}
+async function loadData(){
+  statusMessage('Lade die aktuelle Liste …');
+  try{
+    const res=await fetch('./data/gewinnspiele.json?v='+Date.now(),{cache:'no-store'});
+    if(!res.ok)throw new Error('HTTP '+res.status);
+    const data=await res.json();if(!data||!Array.isArray(data.items))throw new Error('Ungültiges Datenformat');
+    dataset=data;
+  }catch(e){dataset=fallback;statusMessage('Vorschau mit Beispieldaten – JSON-Datei nicht erreichbar ('+e.message+').');}
+  const isDemo=dataset.mode==='demo';
+  const runs=(dataset.sources||[]);
+  const ok=runs.filter(x=>x.ok).length, bad=runs.filter(x=>!x.ok).length;
+  if(isDemo)statusMessage('BEISPIELDATEN · Die tägliche automatische Suche startet nach dem ersten GitHub-Actions-Lauf. Diese Einträge sind noch nicht aktuell verifiziert.');
+  else statusMessage('Suchlauf: '+(dataset.updated_at?new Date(dataset.updated_at).toLocaleString('de-DE'):'Zeit unbekannt')+' · '+ok+' Quellen erreichbar'+(bad?' · '+bad+' Quellen mit Fehler':'')+'. Alle Einträge sind ungeprüft.');
+  $('updated').textContent=dataset.updated_at?'Letzter Datensatz: '+new Date(dataset.updated_at).toLocaleString('de-DE')+'.':'';
+  render();
+}
+for(const b of document.querySelectorAll('[data-tab]'))b.addEventListener('click',()=>{tab=b.dataset.tab;document.querySelectorAll('[data-tab]').forEach(x=>x.setAttribute('aria-selected',String(x===b)));render();});
+for(const id of ['query','source','sort'])$(id).addEventListener(id==='query'?'input':'change',render);
+$('refresh').addEventListener('click',loadData);
+$('export').addEventListener('click',()=>{const json=JSON.stringify({version:1,exported_at:new Date().toISOString(),marks},null,2);const url=URL.createObjectURL(new Blob([json],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='gewinnspielradar-markierungen.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
+$('import').addEventListener('click',()=>$('importFile').click());
+$('importFile').addEventListener('change',async e=>{
+  const file=e.target.files?.[0];if(!file)return;
+  try{if(file.size>1000000)throw new Error('Datei zu groß');const obj=JSON.parse(await file.text());if(obj.version!==1||!obj.marks||typeof obj.marks!=='object'||Array.isArray(obj.marks))throw new Error('Unbekanntes Dateiformat');
+    marks=Object.fromEntries(Object.entries(obj.marks).filter(([id,v])=>typeof id==='string'&&id.length<250&&v&&typeof v==='object').map(([id,v])=>[id,{star:!!v.star,done:!!v.done}]));save();render();alert('Markierungen importiert.');
+  }catch(err){alert('Import fehlgeschlagen: '+err.message);}e.target.value='';
+});
+loadData();
+</script>
+</body></html>
