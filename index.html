@@ -49,8 +49,9 @@
     <section class="controls" aria-label="Suche und Sortierung">
       <input id="query" type="search" placeholder="Gewinn, Veranstalter oder Ort suchen" aria-label="Gewinnspiele durchsuchen">
       <select id="source" aria-label="Quelle"><option value="">Alle Quellen</option></select>
-      <select id="sort" aria-label="Sortierung"><option value="deadline">Endet zuerst</option><option value="new">Neueste zuerst</option><option value="title">Titel A–Z</option></select>
+      <select id="sort" aria-label="Sortierung"><option value="attractive">Attraktivität (Schätzung)</option><option value="value">Gewinnwert (Schätzung)</option><option value="chance">Chancen-Hinweise</option><option value="deadline">Endet zuerst</option><option value="new">Neueste zuerst</option><option value="title">Titel A–Z</option></select>
     </section>
+    <p class="help" style="margin:0 3px 13px">Attraktivität = geschätzter Gewinnwert plus Hinweise auf mehrere Preise und regionalen Bezug. Die Teilnehmerzahl ist unbekannt; eine tatsächliche Gewinnchance kann nicht berechnet werden. Angaben aus Titeln sind nicht überprüft.</p>
     <div class="tabs" role="tablist" aria-label="Ansicht wählen">
       <button role="tab" type="button" data-tab="all" aria-selected="true">Alle</button>
       <button role="tab" type="button" data-tab="region" aria-selected="false">Regional</button>
@@ -87,6 +88,55 @@ function dateDE(s){if(!s)return 'Nicht bekannt';const d=new Date(s+'T12:00:00');
 function safeUrl(raw){try{const u=new URL(raw);return ['https:','http:'].includes(u.protocol)?u.href:null;}catch{return null;}}
 function el(tag, className, text){const n=document.createElement(tag);if(className)n.className=className;if(text!==undefined)n.textContent=text;return n;}
 function statusMessage(s){$('status').textContent=s;}
+
+/* Vorsichtige Heuristik: nur öffentlich vorhandene Titel verwenden, keine erfundenen Gewinnquoten. */
+function rankInfo(it){
+  const title=String(it.title||'');
+  const t=title.toLocaleLowerCase('de-DE');
+  const amounts=[];
+  const money=/(?:€\s*((?:\d{1,3}(?:[.\s]\d{3})+|\d{1,6})(?:,\d{2})?))|(?:(\d{1,3}(?:[.\s]\d{3})+|\d{1,6})(?:,\d{2})?\s*(?:€|euro\b))/gi;
+  for(const match of title.matchAll(money)){
+    const raw=match[1]||match[2];
+    const n=Number(raw.replace(/[.\s]/g,'').replace(',','.'));
+    if(Number.isFinite(n)&&n>=5&&n<=10000000)amounts.push(n);
+  }
+  const statedValue=amounts.length?Math.max(...amounts):null;
+  // Die Sachpreiswerte sind lediglich grobe Kategorie-Anhaltspunkte, keine Marktpreise.
+  const categories=[
+    [/\b(bmw|fiat|porsche|mercedes|tesla|vw|auto gewinnen|neuwagen|fahrzeug)\b/i,30000],
+    [/\b(küche|küchenzeile)\b/i,8000],
+    [/\b(e-bike|ebike|pedelec)\b/i,2200],
+    [/\b(gaming[\s-]?pc|computer|notebook|laptop)\b/i,1600],
+    [/\b(reise|urlaub|lappland|polarlichter|aufenthalt)\b/i,1400],
+    [/\b(iphone|smartphone)\b/i,950],
+    [/\b(lego.*todesstern)\b/i,800],
+    [/\b(eufy|saugroboter|staubsaugerroboter)\b/i,500],
+    [/\b(espresso(?:system|maschine)|kaffeevollautomat|playstation\s*5|ps5|xbox)\b/i,440],
+    [/\b(smartwatch|garmin|chronograph|uhr|lautsprecher|klipsch|teufel)\b/i,250],
+    [/\b(fritteuse|pfannenset|pfannen-trio|pfannen|kopfhörer)\b/i,120],
+    [/\b(tickets?|eintrittskarten|freikarten|karten für|startplätze)\b/i,45],
+    [/\b(fanpaket|paket|adventskalender|kalender|socken|blu-ray|dvd|buch|roman)\b/i,25]
+  ];
+  const category=categories.find(([re])=>re.test(t));
+  const approximate=category?category[1]:null;
+  // Bei einer Wertangabe im Titel hat diese Vorrang vor groben Kategorieannahmen.
+  const value=statedValue??approximate;
+  let winners=null;
+  const multiples=t.match(/\b(\d{1,3})\s*[x×]\s*(?:\d{1,2}\b|\b(?=[a-zäöü]))/i);
+  if(multiples)winners=Number(multiples[1]);
+  const numberOfWinners=t.match(/\b(\d{1,3})\s+(?:gewinner(?:innen)?|gewinnpakete|gutscheine|preise|pakete)\b/i);
+  if(numberOfWinners)winners=Math.max(winners||0,Number(numberOfWinners[1]));
+  if(/\bdrei gewinnpakete\b/i.test(t))winners=Math.max(winners||0,3);
+  // Mehr Preise und lokaler Bezug sind nur Indizien – keine gemessene Gewinnwahrscheinlichkeit.
+  const chanceScore=(winners&&winners>1?Math.min(18,5*Math.log2(winners)):0)+(it.region?7:0);
+  const valueScore=value===null?0:Math.max(1,Math.min(85,20+16*Math.log10(value/10)));
+  const score=valueScore+chanceScore;
+  const level=score>=65?'hoch':score>=43?'mittel':value!==null?'eher niedrig':'unklar';
+  const valueHint=statedValue!==null?'Preisangabe: '+new Intl.NumberFormat('de-DE',{maximumFractionDigits:0}).format(statedValue)+' €':approximate!==null?'Sachpreis: grob eingeordnet':'Gewinnwert unklar';
+  const chanceHint=winners&&winners>1?winners+' Preise/Gewinner im Titel':it.region?'Regionaler Bezug':'Teilnehmerzahl unbekannt';
+  return {score,valueScore,chanceScore,level,valueHint,chanceHint};
+}
+
 function render(){
   const items=(Array.isArray(dataset.items)?dataset.items:[]).filter(it=>it&&it.id&&it.title);
   const today=new Date().toLocaleDateString('sv-SE');
@@ -105,7 +155,16 @@ function render(){
     return !q || [it.title,it.organizer,it.source].join(' ').toLocaleLowerCase('de-DE').includes(q);
   });
   const sort=$('sort').value;
-  list.sort((a,b)=> sort==='title'?a.title.localeCompare(b.title,'de') : sort==='new'?(b.found_at||'').localeCompare(a.found_at||'') : (a.deadline||'9999').localeCompare(b.deadline||'9999'));
+  const ranks=new Map(list.map(it=>[it.id,rankInfo(it)]));
+  list.sort((a,b)=>{
+    if(sort==='title')return a.title.localeCompare(b.title,'de');
+    if(sort==='new')return (b.found_at||'').localeCompare(a.found_at||'');
+    if(sort==='deadline')return (a.deadline||'9999').localeCompare(b.deadline||'9999');
+    const x=ranks.get(a.id),y=ranks.get(b.id);
+    const metric=sort==='value'?'valueScore':sort==='chance'?'chanceScore':'score';
+    const primary=y[metric]-x[metric];
+    return primary||y.valueScore-x.valueScore||(a.deadline||'9999').localeCompare(b.deadline||'9999')||a.title.localeCompare(b.title,'de');
+  });
   $('results').textContent=`${list.length} von ${live.length} Einträgen`;
   const cards=$('cards');cards.replaceChildren();
   if(!list.length){let box=el('div','empty');box.append(el('strong','',live.length?'Keine passenden Treffer':'Noch keine aktuellen Einträge'),el('div','',live.length?'Filter ändern oder Suchbegriff löschen.':'Führe in GitHub unter „Actions“ den Suchlauf aus.'));cards.append(box);return;}
@@ -118,11 +177,13 @@ function render(){
     const org=el('div','meta');org.append(el('b','',it.organizer||'Veranstalter nicht erfasst'),document.createTextNode(' · Quelle: '+(it.source||'Unbekannt')));card.append(org);
     const tags=el('div','tagbar');tags.append(el('span','tag','Frist: '+dateDE(it.deadline)));
     if(it.region)tags.append(el('span','tag region','Regionaler Bezug'));
+    const ranking=ranks.get(it.id);
+    tags.append(el('span','tag','Attraktivität: '+ranking.level));
     if(it.last_seen && it.last_seen < new Date(Date.now()-3*86400000).toLocaleDateString('sv-SE')) tags.append(el('span','tag','Zuletzt gesehen: '+dateDE(it.last_seen)));
     if(m.done)tags.append(el('span','tag','Erledigt'));
     if(it.source==='Beispiel'||dataset.mode==='demo')tags.append(el('span','tag','Beispiel'));
     card.append(tags);
-    card.append(el('div','help','Teilnahmebedingungen nicht automatisch geprüft.'));
+    card.append(el('div','help',ranking.valueHint+' · '+ranking.chanceHint+'. Schätzung nur aus dem Titel; tatsächliche Gewinnchance unbekannt. Teilnahmebedingungen ungeprüft.'));
     const actions=el('div','actions');
     const url=safeUrl(it.url);if(url){const a=el('a','button primary','↗ Gewinnspiel öffnen');a.href=url;a.target='_blank';a.rel='noopener noreferrer';actions.append(a);}
     const done=el('button','button'+(m.done?' active':''),m.done?'✓ Erledigt':'Als erledigt');done.type='button';done.addEventListener('click',()=>{marks[it.id]={...mark(it.id),done:!mark(it.id).done};save();render();});actions.append(done);
