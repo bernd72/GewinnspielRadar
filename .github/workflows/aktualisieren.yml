@@ -48,6 +48,8 @@ jobs:
           fi
       - name: GitHub Pages vorbereiten
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Website zusammenstellen
         run: |
           mkdir -p _site/data
