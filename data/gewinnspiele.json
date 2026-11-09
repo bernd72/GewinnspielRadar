@@ -1,16 +1,16 @@
 {
   "mode": "live",
-  "updated_at": "2026-11-08T14:20:35+00:00",
+  "updated_at": "2026-11-09T17:35:50+00:00",
   "sources": [
     {
       "source": "Mitspiel",
       "ok": true,
-      "count": 46
+      "count": 43
     },
     {
       "source": "GewinnHai",
       "ok": true,
-      "count": 46
+      "count": 41
     },
     {
       "source": "GiveOwl",
@@ -19,116 +19,6 @@
     }
   ],
   "items": [
-    {
-      "id": "ebafc90245744136c4bd",
-      "title": "3x2 Tickets für „songs & stories live: XMas Edition“ von Kreisbote",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-08",
-      "url": "https://mitspiel.com/gewinnspiele/die-groessten-weihnachts-hits-und-ihre-geschichte-wir-verlosen-tickets-fuer-songs-stories-live-xmas-edition-26265",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-05",
-      "last_seen": "2026-11-05"
-    },
-    {
-      "id": "995ce10d1b00dc3ac7fb",
-      "title": "CAS DEIÀ Black Friday Draw: win your wishlist (up to 5 pieces, max €915)",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-08",
-      "url": "https://giveowl.com/e/cas-deia-silver-and-goods-s-l--cas-deia-black-friday-draw-win-your-wishlist-up-to-5-pieces-max-915--2026",
-      "source": "GiveOwl",
-      "region": false,
-      "found_at": "2026-11-05",
-      "last_seen": "2026-11-08"
-    },
-    {
-      "id": "a7f380584fd99f011530",
-      "title": "Eine Blu-ray und eine DVD von Freie Presse Mediengruppe",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-08",
-      "url": "https://mitspiel.com/gewinnspiele/gewinne-eine-dvd-oder-eine-blu-ray-von-hubert-ohne-staller-staffel-13-26267",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-05",
-      "last_seen": "2026-11-05"
-    },
-    {
-      "id": "b12473d1227093d16059",
-      "title": "Golf Post AG Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-08",
-      "url": "https://mitspiel.com/gewinnspiele/cobra-optm-driver-gewinnen-ls-x-max-k-oder-max-d-nach-wahl-26676",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-06",
-      "last_seen": "2026-11-07"
-    },
-    {
-      "id": "a3792f1e528114d466f9",
-      "title": "Halloween-Heimkino-Paket mit LG TV gewinnen",
-      "organizer": "REWE",
-      "deadline": "2026-11-08",
-      "url": "https://www.gewinnhai.de/gewinnspiel/halloween-heimkino-paket-mit-lg-tv-3859",
-      "source": "GewinnHai",
-      "region": false,
-      "found_at": "2026-11-06",
-      "last_seen": "2026-11-08"
-    },
-    {
-      "id": "da72d24a56af3a941149",
-      "title": "Hubert ohne Staller Staffel 13 gewinnen",
-      "organizer": "Leonine Studios",
-      "deadline": "2026-11-08",
-      "url": "https://www.gewinnhai.de/gewinnspiel/hubert-ohne-staller-staffel-13-gewinnen-3851",
-      "source": "GewinnHai",
-      "region": false,
-      "found_at": "2026-11-05",
-      "last_seen": "2026-11-05"
-    },
-    {
-      "id": "6a0377bca263914c06f2",
-      "title": "Junji-Ito-Fanpaket gewinnen",
-      "organizer": "Carlsen",
-      "deadline": "2026-11-08",
-      "url": "https://www.gewinnhai.de/gewinnspiel/junji-ito-fanpaket-gewinnen-3886",
-      "source": "GewinnHai",
-      "region": false,
-      "found_at": "2026-11-05",
-      "last_seen": "2026-11-05"
-    },
-    {
-      "id": "bb1134295718f8d76263",
-      "title": "Mama Michi Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-08",
-      "url": "https://mitspiel.com/gewinnspiele/3-geschenketipps-von-amigo-spiele-vorweihnachtliches-gewinnspiel-26749",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-07",
-      "last_seen": "2026-11-08"
-    },
-    {
-      "id": "d32c92ba91968ff5e62c",
-      "title": "appgefahren.de Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-08",
-      "url": "https://mitspiel.com/gewinnspiele/das-wochenend-gewinnspiel-mit-einer-bunten-auswahl-fuer-das-iphone-18-pro-max-26722",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-07",
-      "last_seen": "2026-11-07"
-    },
-    {
-      "id": "5367cd64878acb26ade6",
-      "title": "filmspleen Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-08",
-      "url": "https://mitspiel.com/gewinnspiele/der-frechste-troll-der-welt-26245",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-05",
-      "last_seen": "2026-11-05"
-    },
     {
       "id": "c8ca72a778765b05ea70",
       "title": "2x2 Karten für das Halbfinale von Joyn",
@@ -182,7 +72,7 @@
       "source": "GiveOwl",
       "region": false,
       "found_at": "2026-11-05",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
     },
     {
       "id": "e9959ac38d0ea1ed0de6",
@@ -196,6 +86,17 @@
       "last_seen": "2026-11-08"
     },
     {
+      "id": "14f691b8fd9c9dbcaf64",
+      "title": "Tchibo Gutschein von Heinrich Bauer Verlag KG",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-09",
+      "url": "https://mitspiel.com/gewinnspiele/warme-styles-fuer-kalte-tage-von-tchibo-27022",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "211ee57439d1bcff3b22",
       "title": "Zwei Freikarten für einen Besuch einer Vorstellung von Bergfreunde GmbH",
       "organizer": "Nicht angegeben",
@@ -205,6 +106,28 @@
       "region": false,
       "found_at": "2026-11-06",
       "last_seen": "2026-11-06"
+    },
+    {
+      "id": "b6c8968bb60b389c3134",
+      "title": "bild.de Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-09",
+      "url": "https://mitspiel.com/gewinnspiele/ein-paar-apple-airpods-pro-3-gewinnen-27047",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "813e6b6fc03efa83fd0e",
+      "title": "\"Kill Bill: The Whole Bloody Affair\" auf Blu-ray und im 4K-Steelbook von Bluray-disc.de",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-10",
+      "url": "https://mitspiel.com/gewinnspiele/bluray-disc-de-und-studiocanal-verlosen-kill-bill-the-whole-bloody-affair-auf-blu-ray-und-im-4k-steelbook-gewinnen-27033",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
     },
     {
       "id": "7dbe59456a4862cfe7db",
@@ -328,6 +251,17 @@
       "last_seen": "2026-11-07"
     },
     {
+      "id": "2817664ea2a06e3661f8",
+      "title": "2 Freikarten (digital) von Techkrams",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-11",
+      "url": "https://mitspiel.com/gewinnspiele/2x2-freikarten-digital-gewinnen-26975",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "94a6e2579ef4406ce907",
       "title": "2 × 2 Tickets für abgeFRACKt von Landeshauptstadt Dresden – Dresdner Philharmonie",
       "organizer": "Nicht angegeben",
@@ -337,6 +271,17 @@
       "region": false,
       "found_at": "2026-11-08",
       "last_seen": "2026-11-08"
+    },
+    {
+      "id": "e82f11fa883fef912189",
+      "title": "Abendzeitung Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-11",
+      "url": "https://mitspiel.com/gewinnspiele/gewinnspiel-nfl-munich-game-2026-27067",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
     },
     {
       "id": "f4d27aef7591100c4026",
@@ -358,7 +303,7 @@
       "source": "GiveOwl",
       "region": false,
       "found_at": "2026-11-05",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
     },
     {
       "id": "accc013586967fdcd6b0",
@@ -435,7 +380,7 @@
       "source": "GiveOwl",
       "region": false,
       "found_at": "2026-11-05",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
     },
     {
       "id": "c4f9b9f35f6e51c2c539",
@@ -548,6 +493,17 @@
       "last_seen": "2026-11-05"
     },
     {
+      "id": "79ad778336332c859f34",
+      "title": "Eine Blu-ray von FredCarpet",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-12",
+      "url": "https://mitspiel.com/gewinnspiele/neu-aufgelegter-kultklassiker-deathstalker-auf-dvd-blu-ray-27015",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "559dafcfb0ca579b8cca",
       "title": "Eine DVD und ein Pfannenset von Fackelmann von RCRmagazin",
       "organizer": "Nicht angegeben",
@@ -579,6 +535,28 @@
       "region": false,
       "found_at": "2026-11-05",
       "last_seen": "2026-11-05"
+    },
+    {
+      "id": "e016e7b7e89a971d0b9b",
+      "title": "Lebküchnerei Woitinek Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-12",
+      "url": "https://mitspiel.com/gewinnspiele/glutenfreie-elisenlebkuchen-der-lebkuechnerei-woitinek-aus-nuernberg-gewinnspiel-26880",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "d837a646e5078f66ff09",
+      "title": "NFL Munich Game Tickets gewinnen",
+      "organizer": "NFL",
+      "deadline": "2026-11-12",
+      "url": "https://www.gewinnhai.de/gewinnspiel/nfl-munich-game-tickets-gewinnen-4209",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
     },
     {
       "id": "ea4d15d62c2084f6a6bc",
@@ -625,6 +603,17 @@
       "last_seen": "2026-11-08"
     },
     {
+      "id": "98982fd180df0bcafe54",
+      "title": "Blu-ray-Exemplar des Films und einem passenden Jutebeutel von BlairWitch.de",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-13",
+      "url": "https://mitspiel.com/gewinnspiele/uraltes-boese-im-heimkino-gewinne-traumatic-die-macht-des-daemons-auf-blu-ray-27016",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "a2053e44676ebab82c27",
       "title": "DVD Couscous und Geheimnisse gewinnen",
       "organizer": "Lighthouse Home Entertainment",
@@ -658,6 +647,17 @@
       "last_seen": "2026-11-06"
     },
     {
+      "id": "891215d507e954afaafe",
+      "title": "Hotel Villa Heine Übernachtungen gewinnen",
+      "organizer": "Hna",
+      "deadline": "2026-11-13",
+      "url": "https://www.gewinnhai.de/gewinnspiel/hotel-villa-heine-uebernachtungen-gewinnen-4187",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "b1ffa880a2e844207c93",
       "title": "Landesweintaufe Krems Tickets gewinnen",
       "organizer": "Kremstal",
@@ -666,7 +666,7 @@
       "source": "GewinnHai",
       "region": false,
       "found_at": "2026-11-08",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
     },
     {
       "id": "26e30045655ad847f317",
@@ -680,6 +680,17 @@
       "last_seen": "2026-11-08"
     },
     {
+      "id": "9d62c9faab220ecba0b8",
+      "title": "PlayStation 5 Pro gewinnen",
+      "organizer": "Trimexa",
+      "deadline": "2026-11-13",
+      "url": "https://www.gewinnhai.de/gewinnspiel/playstation-5-pro-gewinnen-4208",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "b339517551a2d6238a9a",
       "title": "Ebenezer Freikarten gewinnen",
       "organizer": "Paramount Pictures",
@@ -691,6 +702,17 @@
       "last_seen": "2026-11-08"
     },
     {
+      "id": "ce8f6848dc4c76e70a34",
+      "title": "Lidl Dienstleistung GmbH & Co. KG Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-14",
+      "url": "https://mitspiel.com/gewinnspiele/lidl-plus-x-jaegermeister-gewinnspiel-26973",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "fb79804366decb645e5d",
       "title": "Raclette Grill der Marke Sovento von REWE Markt GmbH",
       "organizer": "Nicht angegeben",
@@ -700,6 +722,28 @@
       "region": false,
       "found_at": "2026-11-06",
       "last_seen": "2026-11-07"
+    },
+    {
+      "id": "941ff2780286f12ce9b7",
+      "title": "Sovento Raclette Grill gewinnen",
+      "organizer": "REWE",
+      "deadline": "2026-11-14",
+      "url": "https://www.gewinnhai.de/gewinnspiel/sovento-raclette-grill-gewinnen-4185",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "d544c9097a98d2efab71",
+      "title": "jazz-fun.de Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-14",
+      "url": "https://mitspiel.com/gewinnspiele/verlosung-3-x-cd-von-mulo-francel-tim-collins-how-did-we-get-here-27062",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
     },
     {
       "id": "f9ced32fab52ebf763c6",
@@ -801,6 +845,17 @@
       "last_seen": "2026-11-08"
     },
     {
+      "id": "bc36b0a84599b5f5facb",
+      "title": "Eintrittskarten für das Eishockeyspiel von Wochenblatt",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-15",
+      "url": "https://mitspiel.com/gewinnspiele/gewinnspiel-adler-mannheim-vs-nuernberg-ice-tigers-27017",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "c14bffdedb556b4c86fa",
       "title": "Escape Room Gratisspiel gewinnen",
       "organizer": "Pluscity",
@@ -867,6 +922,17 @@
       "last_seen": "2026-11-08"
     },
     {
+      "id": "1fbcb628828953f5aea5",
+      "title": "Gospel'n'Soul Christmas Tickets gewinnen",
+      "organizer": "Hallo Muenchen",
+      "deadline": "2026-11-15",
+      "url": "https://www.gewinnhai.de/gewinnspiel/gospelnsoul-christmas-tickets-gewinnen-4216",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "3a38bf7c2f30f725631e",
       "title": "Hoffmann Germany Black Week Gewinnspiel: STONIQ Pfannen-Trio",
       "organizer": "Nicht angegeben",
@@ -875,7 +941,29 @@
       "source": "GiveOwl",
       "region": false,
       "found_at": "2026-11-05",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "ed64e1d98cce8f306d42",
+      "title": "Hurtigruten-Reise gewinnen",
+      "organizer": "Hurtigruten",
+      "deadline": "2026-11-15",
+      "url": "https://www.gewinnhai.de/gewinnspiel/hurtigruten-reise-gewinnen-4203",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "9235b9817b6bc5f472cd",
+      "title": "Hyundai IONIQ 3 fahren gewinnen",
+      "organizer": "automüller",
+      "deadline": "2026-11-15",
+      "url": "https://www.gewinnhai.de/gewinnspiel/hyundai-ioniq-3-fahren-gewinnen-4064",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
     },
     {
       "id": "bdd5651809adf3c08c14",
@@ -887,6 +975,28 @@
       "region": false,
       "found_at": "2026-11-06",
       "last_seen": "2026-11-07"
+    },
+    {
+      "id": "a87ec377470fdb2b2c98",
+      "title": "INTERAMT-Adventskalender gewinnen",
+      "organizer": "INTERAMT",
+      "deadline": "2026-11-15",
+      "url": "https://www.gewinnhai.de/gewinnspiel/interamt-adventskalender-gewinnen-4230",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "7a3b1f50dfa08231c77f",
+      "title": "ISIC Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-15",
+      "url": "https://mitspiel.com/gewinnspiele/winnersemester-2026-sony-gewinnspiel-27070",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
     },
     {
       "id": "bab1ac2389090b7284a4",
@@ -933,6 +1043,17 @@
       "last_seen": "2026-11-07"
     },
     {
+      "id": "fe6b79c55cf8df0488fe",
+      "title": "NHL-Tickets Blackhawks vs. Senators gewinnen",
+      "organizer": "Kaufland",
+      "deadline": "2026-11-15",
+      "url": "https://www.gewinnhai.de/gewinnspiel/nhl-tickets-blackhawks-vs-senators-gewinnen-4196",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "9cbfceb6075f462c61ac",
       "title": "Produkttests von uns für Euch! Gewinnspiel",
       "organizer": "Nicht angegeben",
@@ -944,6 +1065,17 @@
       "last_seen": "2026-11-07"
     },
     {
+      "id": "686c1db8777c2ba45476",
+      "title": "RDL Group GmbH Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-15",
+      "url": "https://mitspiel.com/gewinnspiele/gewinnen-sie-eine-aqua-therm-umkehrosmose-mit-heisswasser-bis-100-c-27071",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "a525b0847132ce034aa6",
       "title": "RYZR Recovery-Paket gewinnen",
       "organizer": "RYZR",
@@ -952,7 +1084,7 @@
       "source": "GewinnHai",
       "region": false,
       "found_at": "2026-11-06",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
     },
     {
       "id": "7bacbe5afebac17b112e",
@@ -963,7 +1095,7 @@
       "source": "GewinnHai",
       "region": false,
       "found_at": "2026-11-06",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
     },
     {
       "id": "c8210452f13ff1a553ba",
@@ -974,7 +1106,7 @@
       "source": "GewinnHai",
       "region": false,
       "found_at": "2026-11-07",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
     },
     {
       "id": "664133766e991cc2c0b0",
@@ -985,7 +1117,7 @@
       "source": "GewinnHai",
       "region": false,
       "found_at": "2026-11-07",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
     },
     {
       "id": "47355182f56889bdff54",
@@ -1032,6 +1164,17 @@
       "last_seen": "2026-11-05"
     },
     {
+      "id": "10719191ce9a9d27f832",
+      "title": "Steirische Galanacht VIP-Tickets gewinnen",
+      "organizer": "Kleine Zeitung",
+      "deadline": "2026-11-15",
+      "url": "https://www.gewinnhai.de/gewinnspiel/steirische-galanacht-vip-tickets-gewinnen-4245",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "304268d5c29403ab5e66",
       "title": "The Nature Photography Contest 2026",
       "organizer": "Nicht angegeben",
@@ -1040,7 +1183,18 @@
       "source": "GiveOwl",
       "region": false,
       "found_at": "2026-11-05",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "c25e703941f40737dd9d",
+      "title": "Tickets für Peter und Mike Kraus in der Isarphilharmonie von Abendzeitung",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-15",
+      "url": "https://mitspiel.com/gewinnspiele/tickets-fuer-peter-und-mike-kraus-in-der-isarphilharmonie-gewinnen-26976",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
     },
     {
       "id": "7d06949556081d6ebd43",
@@ -1084,7 +1238,7 @@
       "source": "GiveOwl",
       "region": false,
       "found_at": "2026-11-05",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
     },
     {
       "id": "8175b9020665168a9238",
@@ -1131,6 +1285,17 @@
       "last_seen": "2026-11-08"
     },
     {
+      "id": "c134ae87358a034151df",
+      "title": "Wuppertaler Rundschau Verlagsgesellschaft mbH Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-15",
+      "url": "https://mitspiel.com/gewinnspiele/trolleys-und-taschen-zu-gewinnen-27014",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "6bae5a44e5a830a6a575",
       "title": "Eine DVD oder eine Blu-ray von \"Nightborn\" von BLICK.de",
       "organizer": "Nicht angegeben",
@@ -1140,6 +1305,28 @@
       "region": false,
       "found_at": "2026-11-06",
       "last_seen": "2026-11-06"
+    },
+    {
+      "id": "64674d9a7a039bf1fb89",
+      "title": "Familienwochenende in Tirol gewinnen",
+      "organizer": "DoN's",
+      "deadline": "2026-11-16",
+      "url": "https://www.gewinnhai.de/gewinnspiel/familienwochenende-in-tirol-gewinnen-4201",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "cc7407c08e7957503131",
+      "title": "Krampus-Show Tickets gewinnen",
+      "organizer": "Weekend",
+      "deadline": "2026-11-16",
+      "url": "https://www.gewinnhai.de/gewinnspiel/krampus-show-tickets-gewinnen-4239",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
     },
     {
       "id": "4c9306fed9436cd24409",
@@ -1195,6 +1382,17 @@
       "region": false,
       "found_at": "2026-11-05",
       "last_seen": "2026-11-05"
+    },
+    {
+      "id": "fe6e5c5071731bf1a9b3",
+      "title": "DisneyCentral.de Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-17",
+      "url": "https://mitspiel.com/gewinnspiele/adventskalender-gewinnspiel-gewinne-1-von-2-disney-adventskalendern-27037",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
     },
     {
       "id": "40bb968b93481d959d68",
@@ -1293,7 +1491,7 @@
       "source": "GiveOwl",
       "region": false,
       "found_at": "2026-11-05",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
     },
     {
       "id": "2d7601b9d3c29124bbf8",
@@ -1348,7 +1546,18 @@
       "source": "GewinnHai",
       "region": false,
       "found_at": "2026-11-07",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "168efaaa287461e1cecf",
+      "title": "ONLY-E.DE Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-19",
+      "url": "https://mitspiel.com/gewinnspiele/sherlock-holmes-folge-74-botschaft-aus-dem-jenseits-27058",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
     },
     {
       "id": "865c4c77a2195a91e5f6",
@@ -1428,6 +1637,17 @@
       "last_seen": "2026-11-07"
     },
     {
+      "id": "b7c5abe3d35632ebc778",
+      "title": "Eine DVD von Hallo Betty von Moviebreak",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-20",
+      "url": "https://mitspiel.com/gewinnspiele/eine-dvd-von-hallo-betty-gewinnen-27056",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "4a88537d23772640c371",
       "title": "Einkaufsgeld gewinnen",
       "organizer": "MDR Sachsen",
@@ -1436,7 +1656,18 @@
       "source": "GewinnHai",
       "region": false,
       "found_at": "2026-11-08",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "ba1d459e5946bf63fe0e",
+      "title": "Filmchecker-Blog Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-20",
+      "url": "https://mitspiel.com/gewinnspiele/gewinnt-tolle-preise-zum-4k-heimkinostart-von-eden-lake-27035",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
     },
     {
       "id": "8ed9e177eeac85b9b039",
@@ -1447,7 +1678,7 @@
       "source": "GewinnHai",
       "region": false,
       "found_at": "2026-11-05",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
     },
     {
       "id": "4b0de875eec30457ce54",
@@ -1469,7 +1700,40 @@
       "source": "GiveOwl",
       "region": false,
       "found_at": "2026-11-05",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "923d7735e2211ee21ffe",
+      "title": "Moviebreak Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-20",
+      "url": "https://mitspiel.com/gewinnspiele/passend-zur-heimkinoveroeffentlichung-verlosen-wir-ein-limitiertes-chernobyl-mediabook-mit-der-kompletten-serie-27064",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "ddd6b2d20ac84394a717",
+      "title": "Moviebreak Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-20",
+      "url": "https://mitspiel.com/gewinnspiele/zwei-blu-rays-von-kraken-erwachen-der-tiefe-gewinnen-27060",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "4806a4eb7e10ef22a0d6",
+      "title": "Moviebreak Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-20",
+      "url": "https://mitspiel.com/gewinnspiele/zwei-blu-rays-von-das-kartell-brothers-under-fire-gewinnen-27059",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
     },
     {
       "id": "c4fefad71124891ab15b",
@@ -1480,7 +1744,18 @@
       "source": "GiveOwl",
       "region": false,
       "found_at": "2026-11-08",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "28387aa28695fc4f94e4",
+      "title": "New York Pops Tickets gewinnen",
+      "organizer": "BroadwayWorld",
+      "deadline": "2026-11-20",
+      "url": "https://www.gewinnhai.de/gewinnspiel/new-york-pops-tickets-gewinnen-4213",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
     },
     {
       "id": "30dbd07c6d42d0ae6322",
@@ -1502,7 +1777,18 @@
       "source": "GewinnHai",
       "region": false,
       "found_at": "2026-11-05",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "f6e93f79611b52986504",
+      "title": "moviebreak Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-20",
+      "url": "https://mitspiel.com/gewinnspiele/drei-exemplare-des-romans-hochsaison-gewinnen-27057",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
     },
     {
       "id": "2c35ec47b8629eb593ed",
@@ -1527,6 +1813,17 @@
       "last_seen": "2026-11-07"
     },
     {
+      "id": "a9b9f5a18495ede432da",
+      "title": "Piatnik Versteckt? Entdeckt? gewinnen",
+      "organizer": "Piatnik",
+      "deadline": "2026-11-21",
+      "url": "https://www.gewinnhai.de/gewinnspiel/piatnik-versteckt-entdeckt-gewinnen-4237",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "9339eaeb137e330fff84",
       "title": "TraumRaum Einrichtung gewinnen",
       "organizer": "xanocs",
@@ -1535,7 +1832,18 @@
       "source": "GewinnHai",
       "region": false,
       "found_at": "2026-11-06",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "d04ee3679666392fcbba",
+      "title": "be-outdoor.de Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-21",
+      "url": "https://mitspiel.com/gewinnspiele/honig-adventskalender-2026-entdecken-gewinnen-27036",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
     },
     {
       "id": "26a610f4f6943802d7fb",
@@ -1648,6 +1956,17 @@
       "last_seen": "2026-11-08"
     },
     {
+      "id": "75eac0a7c5198e3708d8",
+      "title": "Feuerwehrstore Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-22",
+      "url": "https://mitspiel.com/gewinnspiele/weihnachtsgewinnspiel-2026-27034",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "03e3b2eb64c07faeaf39",
       "title": "GewinnFeed Gewinnspiel",
       "organizer": "Nicht angegeben",
@@ -1670,6 +1989,17 @@
       "last_seen": "2026-11-06"
     },
     {
+      "id": "991d1a668f0a0aeb49eb",
+      "title": "HUMANIC Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-22",
+      "url": "https://mitspiel.com/gewinnspiele/wohlfuehlurlaub-zu-gewinnen-27039",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "e04ea7792a6b06913957",
       "title": "Heinz Gewinnspiel - USA-Reise oder Heinz Merch-Pakete von BonGold",
       "organizer": "Nicht angegeben",
@@ -1689,7 +2019,7 @@
       "source": "GewinnHai",
       "region": false,
       "found_at": "2026-11-08",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
     },
     {
       "id": "03c5e548f504c0f6bfda",
@@ -1711,7 +2041,7 @@
       "source": "GewinnHai",
       "region": false,
       "found_at": "2026-11-08",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
     },
     {
       "id": "ba7fc8e4a67c3bfa1fc4",
@@ -1733,7 +2063,7 @@
       "source": "GiveOwl",
       "region": false,
       "found_at": "2026-11-05",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
     },
     {
       "id": "119f11055806f2cb8015",
@@ -1744,7 +2074,18 @@
       "source": "GiveOwl",
       "region": false,
       "found_at": "2026-11-05",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "0f80da2c7b1c4b35b437",
+      "title": "MÜLLER - Auch online mehr als eine Drogerie Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-22",
+      "url": "https://mitspiel.com/gewinnspiele/rund-ums-gruene-zuhause-gewinnen-26900",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
     },
     {
       "id": "70f1775bb4144f1221f1",
@@ -1756,6 +2097,17 @@
       "region": false,
       "found_at": "2026-11-07",
       "last_seen": "2026-11-07"
+    },
+    {
+      "id": "267e35309cbb4274d578",
+      "title": "Omaze Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-22",
+      "url": "https://mitspiel.com/gewinnspiele/mercedes-g-450-d-50-000-eur-aufs-konto-27066",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
     },
     {
       "id": "6a3d0f02c2b7e3919995",
@@ -1791,6 +2143,28 @@
       "last_seen": "2026-11-08"
     },
     {
+      "id": "710ad413426e5ce0c9c8",
+      "title": "XLETIX Kids Tickets gewinnen",
+      "organizer": "XLETIX Kids",
+      "deadline": "2026-11-22",
+      "url": "https://www.gewinnhai.de/gewinnspiel/xletix-kids-tickets-gewinnen-4223",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "5e9c9b770345105a1f8a",
+      "title": "BeyondPixels.at Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-23",
+      "url": "https://mitspiel.com/gewinnspiele/gewinnspiel-wir-verlosen-ebenezer-eine-weihnachtsgeschichte-goodies-27004",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "94c1e9f08ac9f6d4a201",
       "title": "MORE Nutrition Black Week 2026: Lappland-Reise und iPhone",
       "organizer": "Nicht angegeben",
@@ -1799,7 +2173,7 @@
       "source": "GiveOwl",
       "region": false,
       "found_at": "2026-11-05",
-      "last_seen": "2026-11-07"
+      "last_seen": "2026-11-09"
     },
     {
       "id": "c0d5b9092f0d64502108",
@@ -1854,7 +2228,7 @@
       "source": "GewinnHai",
       "region": false,
       "found_at": "2026-11-08",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
     },
     {
       "id": "4ff416af53fc09a8691a",
@@ -1876,7 +2250,7 @@
       "source": "GewinnHai",
       "region": false,
       "found_at": "2026-11-07",
-      "last_seen": "2026-11-08"
+      "last_seen": "2026-11-09"
     },
     {
       "id": "905cce4a9c7309396196",
@@ -1890,6 +2264,17 @@
       "last_seen": "2026-11-06"
     },
     {
+      "id": "f63ce7db946340de72dd",
+      "title": "Worlds Collide VIP Package gewinnen",
+      "organizer": "Disney",
+      "deadline": "2026-11-26",
+      "url": "https://www.gewinnhai.de/gewinnspiel/worlds-collide-vip-package-gewinnen-4206",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "2beb3d14e6574e001fd7",
       "title": "Die drei ??? Hörspiel gewinnen",
       "organizer": "Sony Music Entertainment Ger…",
@@ -1899,6 +2284,17 @@
       "region": false,
       "found_at": "2026-11-06",
       "last_seen": "2026-11-06"
+    },
+    {
+      "id": "7dc313140ac7ac035081",
+      "title": "freundin Verlag GmbH Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-27",
+      "url": "https://mitspiel.com/gewinnspiele/gewinnspiele-heft-25-2026-27068",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
     },
     {
       "id": "0c1625dc99ee48d9bba7",
@@ -1967,6 +2363,17 @@
       "last_seen": "2026-11-06"
     },
     {
+      "id": "7a5b36d898c3bc4e3498",
+      "title": "HEIDI VOM LANDE Gewinnspiel",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-29",
+      "url": "https://mitspiel.com/gewinnspiele/gewinnspiel-meertotfrau-von-christoph-kastenbauer-27055",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "4c2e5ab7591d37c8ce61",
       "title": "REWE Markt GmbH Gewinnspiel",
       "organizer": "Nicht angegeben",
@@ -2000,6 +2407,17 @@
       "last_seen": "2026-11-06"
     },
     {
+      "id": "072201d2c8a3344670d8",
+      "title": "250 Euro Bargeld gewinnen",
+      "organizer": "Women's Health",
+      "deadline": "2026-11-30",
+      "url": "https://www.gewinnhai.de/gewinnspiel/250-euro-bargeld-gewinnen-4202",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
       "id": "382ea4632d34d1f7381e",
       "title": "3 × 2 VIP-Tickets für SQAD Futsal Challenge am 9.12 von IN München - Das Stadtmagazin",
       "organizer": "Nicht angegeben",
@@ -2016,424 +2434,6 @@
       "organizer": "Nicht angegeben",
       "deadline": "2026-11-30",
       "url": "https://mitspiel.com/gewinnspiele/november-gewinnspiel-2026-26659",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-06",
-      "last_seen": "2026-11-07"
-    },
-    {
-      "id": "79daf025313d5c965685",
-      "title": "Adventskalender gewinnen",
-      "organizer": "Mitteldeutsche Verlags- und …",
-      "deadline": "2026-11-30",
-      "url": "https://www.gewinnhai.de/gewinnspiel/adventskalender-gewinnen-3690",
-      "source": "GewinnHai",
-      "region": false,
-      "found_at": "2026-11-05",
-      "last_seen": "2026-11-05"
-    },
-    {
-      "id": "9c105ac6df997cac905a",
-      "title": "Amazon.de-Geschenkgutschein gewinnen",
-      "organizer": "RTS Magazin",
-      "deadline": "2026-11-30",
-      "url": "https://www.gewinnhai.de/gewinnspiel/amazonde-geschenkgutschein-gewinnen-3933",
-      "source": "GewinnHai",
-      "region": false,
-      "found_at": "2026-11-07",
-      "last_seen": "2026-11-07"
-    },
-    {
-      "id": "8a5993a6c5ab6139049e",
-      "title": "Apple iPhone von Lamiya",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-30",
-      "url": "https://mitspiel.com/gewinnspiele/black-month-giveaway-unsere-10-gewinne-26320",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-05",
-      "last_seen": "2026-11-05"
-    },
-    {
-      "id": "9fdc436c1f850b5018c4",
-      "title": "Berghotel Hohe Mark Aufenthalt gewinnen",
-      "organizer": "VCH Hotels Deutschland",
-      "deadline": "2026-11-30",
-      "url": "https://www.gewinnhai.de/gewinnspiel/berghotel-hohe-mark-aufenthalt-gewinnen-3914",
-      "source": "GewinnHai",
-      "region": false,
-      "found_at": "2026-11-07",
-      "last_seen": "2026-11-07"
-    },
-    {
-      "id": "69cad5064bfc23d51234",
-      "title": "Bergzeit GmbH Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-30",
-      "url": "https://mitspiel.com/gewinnspiele/bergzeitclub-gewinnspiel-julbo-skibrille-skihelm-gewinnen-26658",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-06",
-      "last_seen": "2026-11-07"
-    },
-    {
-      "id": "396fc4a89f303f8ab6f5",
-      "title": "Bergzeit GmbH Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-30",
-      "url": "https://mitspiel.com/gewinnspiele/bergzeit-alpincamp-gewinne-ein-winter-wochenende-mit-dynafit-im-oetztal-26866",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-08",
-      "last_seen": "2026-11-08"
-    },
-    {
-      "id": "df356dcead12fffbb7cd",
-      "title": "BestChoice-Gutschein von Trimexa GmbH",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-30",
-      "url": "https://mitspiel.com/gewinnspiele/whatsapp-gutschein-drops-jeden-tag-ein-bestchoice-gutschein-bis-ende-november-26581",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-06",
-      "last_seen": "2026-11-07"
-    },
-    {
-      "id": "a6193949cf331d59ea34",
-      "title": "DERTOUR Reisegutschein gewinnen",
-      "organizer": "DERTOUR",
-      "deadline": "2026-11-30",
-      "url": "https://www.gewinnhai.de/gewinnspiel/dertour-reisegutschein-gewinnen-3820",
-      "source": "GewinnHai",
-      "region": false,
-      "found_at": "2026-11-05",
-      "last_seen": "2026-11-08"
-    },
-    {
-      "id": "8c432c4a23db7942aa02",
-      "title": "Das Album “Liebe Glaube Monster“ von Hamburger Allgemeine Rundschau",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-30",
-      "url": "https://mitspiel.com/gewinnspiele/gewinnspiel-gewinnen-sie-das-album-liebe-glaube-monster-26723",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-07",
-      "last_seen": "2026-11-07"
-    },
-    {
-      "id": "71f9bc2156cf929537a3",
-      "title": "Die Illusion der Expertise gewinnen",
-      "organizer": "Wirsindderwandel",
-      "deadline": "2026-11-30",
-      "url": "https://www.gewinnhai.de/gewinnspiel/die-illusion-der-expertise-gewinnen-3895",
-      "source": "GewinnHai",
-      "region": false,
-      "found_at": "2026-11-07",
-      "last_seen": "2026-11-07"
-    },
-    {
-      "id": "44cd7b312de8d4ff66f8",
-      "title": "Ein ACOTAR Set von Funko von Heinrich Bauer Verlag KG",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-30",
-      "url": "https://mitspiel.com/gewinnspiele/gewinne-ein-acotar-set-von-funko-26646",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-06",
-      "last_seen": "2026-11-07"
-    },
-    {
-      "id": "c212514e6a8b38d54631",
-      "title": "GORILLA Deutschland gGmbH Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-30",
-      "url": "https://mitspiel.com/gewinnspiele/gorilla-gewinnspiel-noevember-2026-26705",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-07",
-      "last_seen": "2026-11-07"
-    },
-    {
-      "id": "58af65df1bdec118d617",
-      "title": "Men's Health Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-30",
-      "url": "https://mitspiel.com/gewinnspiele/2-x-250-euro-gewinnen-26782",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-08",
-      "last_seen": "2026-11-08"
-    },
-    {
-      "id": "dec6b80e64bd362745ae",
-      "title": "Red Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-30",
-      "url": "https://mitspiel.com/gewinnspiele/gewinnspiel-3-x-das-spiel-good-feelings-das-lustige-erzaehlspiel-fuer-familien-26432",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-05",
-      "last_seen": "2026-11-05"
-    },
-    {
-      "id": "c92a9a5d1aef69441f94",
-      "title": "Reise zu den Polarlichtern gewinnen",
-      "organizer": "Kaufland",
-      "deadline": "2026-11-30",
-      "url": "https://www.gewinnhai.de/gewinnspiel/reise-zu-den-polarlichtern-gewinnen-3748",
-      "source": "GewinnHai",
-      "region": false,
-      "found_at": "2026-11-05",
-      "last_seen": "2026-11-06"
-    },
-    {
-      "id": "98bf1772a0ec5b78d36c",
-      "title": "Runner’s World Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-30",
-      "url": "https://mitspiel.com/gewinnspiele/november-gewinnspiel-2-x-250-eur-fuer-deine-laufziele-26719",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-07",
-      "last_seen": "2026-11-07"
-    },
-    {
-      "id": "b3e8134b892ff07662e7",
-      "title": "Signiertes SVE-Trikot gewinnen",
-      "organizer": "SV 07 Elversberg",
-      "deadline": "2026-11-30",
-      "url": "https://www.gewinnhai.de/gewinnspiel/signiertes-sve-trikot-gewinnen-3932",
-      "source": "GewinnHai",
-      "region": false,
-      "found_at": "2026-11-07",
-      "last_seen": "2026-11-07"
-    },
-    {
-      "id": "0bb4852ad90cb439ae56",
-      "title": "Skipässe Oberjoch gewinnen",
-      "organizer": "Erdinger",
-      "deadline": "2026-11-30",
-      "url": "https://www.gewinnhai.de/gewinnspiel/skipaesse-oberjoch-gewinnen-3913",
-      "source": "GewinnHai",
-      "region": false,
-      "found_at": "2026-11-07",
-      "last_seen": "2026-11-07"
-    },
-    {
-      "id": "e3b7a730e9fc06a56bc1",
-      "title": "Tchibo Gutschein von FUNKE FUN",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-30",
-      "url": "https://mitspiel.com/gewinnspiele/gewinne-einen-tchibo-gutschein-im-wert-von-100-euro-26784",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-08",
-      "last_seen": "2026-11-08"
-    },
-    {
-      "id": "b37cd7ece551973c6103",
-      "title": "Wellnessurlaub Land & Golf Hotel gewinnen",
-      "organizer": "Land",
-      "deadline": "2026-11-30",
-      "url": "https://www.gewinnhai.de/gewinnspiel/wellnessurlaub-land-und-golf-hotel-gewinnen-3918",
-      "source": "GewinnHai",
-      "region": false,
-      "found_at": "2026-11-07",
-      "last_seen": "2026-11-07"
-    },
-    {
-      "id": "134374ee79c772ab6f89",
-      "title": "genussmaenner.de Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-30",
-      "url": "https://mitspiel.com/gewinnspiele/monopoly-mogeln-taeuschen-26644",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-06",
-      "last_seen": "2026-11-07"
-    },
-    {
-      "id": "da29284de1aa79cead1d",
-      "title": "kidsgo Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-30",
-      "url": "https://mitspiel.com/gewinnspiele/gewinnspiel-thule-maple-connect-26707",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-07",
-      "last_seen": "2026-11-07"
-    },
-    {
-      "id": "cd80d6239810218d5e30",
-      "title": "1 DVD-Box Die Rosenheim-Cops, Staffel 22 von GewinnFeed",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-12-01",
-      "url": "https://mitspiel.com/gewinnspiele/1-dvd-box-die-rosenheim-cops-staffel-22-gewinnen-26800",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-08",
-      "last_seen": "2026-11-08"
-    },
-    {
-      "id": "57f83879679fc58fef5a",
-      "title": "ALMGUT: Gutschein 1.310 EUR für 3 Nächte / 2 Personen, Doppelzimmer Almkräuter, Verwöhn Plus Pension, Spa, Vitamin-D-Bad und Picknickrucksack von GewinnFeed",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-12-01",
-      "url": "https://mitspiel.com/gewinnspiele/almgut-gutschein-1-310-eur-fuer-3-naechte-2-personen-doppelzimmer-almkraeuter-verwoehn-plus-pension-spa-vitamin-d-bad-und-picknickrucksack-g-26806",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-08",
-      "last_seen": "2026-11-08"
-    },
-    {
-      "id": "c417dffa3c884f4821f6",
-      "title": "BLICK.de Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-12-01",
-      "url": "https://mitspiel.com/gewinnspiele/fuenf-codes-fuer-funko-pop-gewinnen-26727",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-07",
-      "last_seen": "2026-11-07"
-    },
-    {
-      "id": "c79096440b830b03045a",
-      "title": "Enkelkind.de Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-12-01",
-      "url": "https://mitspiel.com/gewinnspiele/wir-verlosen-einen-kleinen-ice-flitzer-26488",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-06",
-      "last_seen": "2026-11-06"
-    },
-    {
-      "id": "10c6b1a5f5a26da4ea8b",
-      "title": "Kunstcartoons Kalender gewinnen",
-      "organizer": "Ananas Kunstverlag",
-      "deadline": "2026-12-01",
-      "url": "https://www.gewinnhai.de/gewinnspiel/kunstcartoons-kalender-gewinnen-3878",
-      "source": "GewinnHai",
-      "region": false,
-      "found_at": "2026-11-06",
-      "last_seen": "2026-11-06"
-    },
-    {
-      "id": "1efc86dd0ce77dc46322",
-      "title": "Tourismusverband Region Graz Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-12-01",
-      "url": "https://mitspiel.com/gewinnspiele/wintererlebnisse-in-der-erlebnisregion-graz-gewinnen-26768",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-08",
-      "last_seen": "2026-11-08"
-    },
-    {
-      "id": "0652d35a7a69800c574d",
-      "title": "genussmaenner.de und Teufel Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-12-02",
-      "url": "https://mitspiel.com/gewinnspiele/teuflischer-boomster-4-der-beste-boomster-aller-zeiten-26471",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-05",
-      "last_seen": "2026-11-06"
-    },
-    {
-      "id": "52f46c8a0948a6a91c15",
-      "title": "1 Buch Verbrechen von nebenan: Die spektakulärsten Kriminalfälle aus dem Nr.1-Podcast, Philipp Fleiter von GewinnFeed",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-12-03",
-      "url": "https://mitspiel.com/gewinnspiele/1-buch-verbrechen-von-nebenan-die-spektakulaersten-kriminalfaelle-aus-dem-nr-1-podcast-philipp-fleiter-gewinnen-26793",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-08",
-      "last_seen": "2026-11-08"
-    },
-    {
-      "id": "5c544218b4abadccfd20",
-      "title": "3x2 Karten für die nächste CineLounge von der Verkehrs- und Tarifverbund Stuttgart GmbH",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-12-03",
-      "url": "https://mitspiel.com/gewinnspiele/3x2-karten-fuer-die-naechste-cinelounge-gewinnen-26422",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-05",
-      "last_seen": "2026-11-05"
-    },
-    {
-      "id": "9851c4222109cb4c5ece",
-      "title": "Beckenboden-Vorsorge-Check gewinnen",
-      "organizer": "praxis entero",
-      "deadline": "2026-12-03",
-      "url": "https://www.gewinnhai.de/gewinnspiel/beckenboden-vorsorge-check-gewinnen-3831",
-      "source": "GewinnHai",
-      "region": false,
-      "found_at": "2026-11-05",
-      "last_seen": "2026-11-05"
-    },
-    {
-      "id": "7f9e450e1eb25bbdab32",
-      "title": "Eine Garmin Smartwatch vívoactive 6 von Freundin",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-12-03",
-      "url": "https://mitspiel.com/gewinnspiele/eine-garmin-smartwatch-vivoactive-6-gewinnen-26388",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-05",
-      "last_seen": "2026-11-05"
-    },
-    {
-      "id": "65c6d3d42631c1470662",
-      "title": "GewinnFeed Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-12-03",
-      "url": "https://mitspiel.com/gewinnspiele/1-insta360-ace-pro-2-arctic-white-limited-edition-flash-print-bundle-xplorer-grip-pro-kit-pocket-printer-flip-screen-hood-classic-leather-ca-26801",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-08",
-      "last_seen": "2026-11-08"
-    },
-    {
-      "id": "821dde44492a3ca5f837",
-      "title": "GewinnFeed Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-12-04",
-      "url": "https://mitspiel.com/gewinnspiele/1-von-2-eberhard-faber-artist-color-zeichensets-mit-je-37-teilen-gewinnen-26791",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-08",
-      "last_seen": "2026-11-08"
-    },
-    {
-      "id": "04a92cd263fb180ece57",
-      "title": "auto motor und sport Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-12-04",
-      "url": "https://mitspiel.com/gewinnspiele/80-jahre-auto-motor-und-sport-gewinnspiel-eins-von-80-liqui-moly-gewinnerpaketen-gewinnen-26400",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-05",
-      "last_seen": "2026-11-05"
-    },
-    {
-      "id": "35be7e385f493d75b54f",
-      "title": "auto motor und sport Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-12-04",
-      "url": "https://mitspiel.com/gewinnspiele/80-jahre-auto-motor-und-sport-gewinnspiel-mobiles-event-soundsystem-rockster-2-von-teufel-gewinnen-26496",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-06",
-      "last_seen": "2026-11-06"
-    },
-    {
-      "id": "86ebdf84fb70d5852ff5",
-      "title": "5 × 10-Euro-Gutscheine von hugo!",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-12-06",
-      "url": "https://mitspiel.com/gewinnspiele/gewinnspiel-5-x-10-euro-fuer-euren-goho-hoho-besuch-26645",
       "source": "Mitspiel",
       "region": false,
       "found_at": "2026-11-06",
