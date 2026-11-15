@@ -1,6 +1,6 @@
 {
   "mode": "live",
-  "updated_at": "2026-11-14T14:12:23+00:00",
+  "updated_at": "2026-11-15T14:48:16+00:00",
   "sources": [
     {
       "source": "Mitspiel",
@@ -10,7 +10,7 @@
     {
       "source": "GewinnHai",
       "ok": true,
-      "count": 40
+      "count": 43
     },
     {
       "source": "GiveOwl",
@@ -19,72 +19,6 @@
     }
   ],
   "items": [
-    {
-      "id": "e0e1b455ad5b9d17aa9f",
-      "title": "3 × 2 Tickets für Fatoumata Diawara am 15.11.26 in der Muffathalle von In Muenchen",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-14",
-      "url": "https://mitspiel.com/gewinnspiele/die-pure-afro-pop-energie-fatoumata-diawara-am-15-11-26-in-der-muffathalle-wir-verlosen-3-x-2-tickets-gewinnen-27106",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-10",
-      "last_seen": "2026-11-10"
-    },
-    {
-      "id": "b339517551a2d6238a9a",
-      "title": "Ebenezer Freikarten gewinnen",
-      "organizer": "Paramount Pictures",
-      "deadline": "2026-11-14",
-      "url": "https://www.gewinnhai.de/gewinnspiel/ebenezer-freikarten-gewinnen-4118",
-      "source": "GewinnHai",
-      "region": false,
-      "found_at": "2026-11-08",
-      "last_seen": "2026-11-08"
-    },
-    {
-      "id": "ce8f6848dc4c76e70a34",
-      "title": "Lidl Dienstleistung GmbH & Co. KG Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-14",
-      "url": "https://mitspiel.com/gewinnspiele/lidl-plus-x-jaegermeister-gewinnspiel-26973",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-09",
-      "last_seen": "2026-11-09"
-    },
-    {
-      "id": "fb79804366decb645e5d",
-      "title": "Raclette Grill der Marke Sovento von REWE Markt GmbH",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-14",
-      "url": "https://mitspiel.com/gewinnspiele/odenwald-kassenbon-gewinnspiel-26662",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-06",
-      "last_seen": "2026-11-07"
-    },
-    {
-      "id": "941ff2780286f12ce9b7",
-      "title": "Sovento Raclette Grill gewinnen",
-      "organizer": "REWE",
-      "deadline": "2026-11-14",
-      "url": "https://www.gewinnhai.de/gewinnspiel/sovento-raclette-grill-gewinnen-4185",
-      "source": "GewinnHai",
-      "region": false,
-      "found_at": "2026-11-09",
-      "last_seen": "2026-11-09"
-    },
-    {
-      "id": "d544c9097a98d2efab71",
-      "title": "jazz-fun.de Gewinnspiel",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-14",
-      "url": "https://mitspiel.com/gewinnspiele/verlosung-3-x-cd-von-mulo-francel-tim-collins-how-did-we-get-here-27062",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-09",
-      "last_seen": "2026-11-09"
-    },
     {
       "id": "df0aefb92e6c20934dd7",
       "title": "1 Blu-ray zu NIGHTBORN von Filmchecker-Blog",
@@ -127,7 +61,7 @@
       "source": "Mitspiel",
       "region": false,
       "found_at": "2026-11-12",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "0dadebcc723fc9eeb07a",
@@ -204,7 +138,7 @@
       "source": "Mitspiel",
       "region": false,
       "found_at": "2026-11-13",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "1673fc3ba4f0aec08905",
@@ -281,7 +215,7 @@
       "source": "Mitspiel",
       "region": false,
       "found_at": "2026-11-12",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "c14bffdedb556b4c86fa",
@@ -314,7 +248,7 @@
       "source": "GewinnHai",
       "region": false,
       "found_at": "2026-11-12",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "a548e14dd6efd3afebcc",
@@ -380,7 +314,7 @@
       "source": "GiveOwl",
       "region": false,
       "found_at": "2026-11-05",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "35611e75f3f30302af2f",
@@ -677,7 +611,7 @@
       "source": "GiveOwl",
       "region": false,
       "found_at": "2026-11-05",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "9b6b4b87b6674ffffef5",
@@ -688,7 +622,7 @@
       "source": "Mitspiel",
       "region": false,
       "found_at": "2026-11-13",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "c25e703941f40737dd9d",
@@ -743,7 +677,7 @@
       "source": "Mitspiel",
       "region": false,
       "found_at": "2026-11-13",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "cabb71a95b11f95b2331",
@@ -765,7 +699,7 @@
       "source": "GiveOwl",
       "region": false,
       "found_at": "2026-11-05",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "8175b9020665168a9238",
@@ -831,7 +765,7 @@
       "source": "Mitspiel",
       "region": false,
       "found_at": "2026-11-13",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "d0dbccb13da45621ee31",
@@ -842,7 +776,7 @@
       "source": "Mitspiel",
       "region": false,
       "found_at": "2026-11-13",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "85af67a28db91bf6a2b1",
@@ -853,7 +787,7 @@
       "source": "Mitspiel",
       "region": false,
       "found_at": "2026-11-13",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "53c94a0b502a1064c546",
@@ -864,7 +798,7 @@
       "source": "Mitspiel",
       "region": false,
       "found_at": "2026-11-14",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "a193eda44b0cd0bf6e1d",
@@ -875,7 +809,7 @@
       "source": "Mitspiel",
       "region": false,
       "found_at": "2026-11-12",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "0a477b2d474eecf1f872",
@@ -886,7 +820,7 @@
       "source": "Mitspiel",
       "region": false,
       "found_at": "2026-11-12",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "c471fe9db091b3c7d72f",
@@ -1095,7 +1029,7 @@
       "source": "Mitspiel",
       "region": false,
       "found_at": "2026-11-14",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "fe6e5c5071731bf1a9b3",
@@ -1241,6 +1175,39 @@
       "last_seen": "2026-11-11"
     },
     {
+      "id": "a08b0d36dd97d5ebe6e1",
+      "title": "Sinfoniekonzert Berlin Tickets gewinnen",
+      "organizer": "Süddeutsche Zeitung",
+      "deadline": "2026-11-18",
+      "url": "https://www.gewinnhai.de/gewinnspiel/sinfoniekonzert-berlin-tickets-gewinnen-4524",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-15",
+      "last_seen": "2026-11-15"
+    },
+    {
+      "id": "d2874bc2bd6fc48616bc",
+      "title": "Spielaktiv Messe Tickets gewinnen",
+      "organizer": "Freizeit Tirol",
+      "deadline": "2026-11-18",
+      "url": "https://www.gewinnhai.de/gewinnspiel/spielaktiv-messe-tickets-gewinnen-4516",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-15",
+      "last_seen": "2026-11-15"
+    },
+    {
+      "id": "2e8dc494705dfe1a9323",
+      "title": "The Prodigy Tickets gewinnen",
+      "organizer": "Kronen Zeitung",
+      "deadline": "2026-11-18",
+      "url": "https://www.gewinnhai.de/gewinnspiel/the-prodigy-tickets-gewinnen-4504",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-15",
+      "last_seen": "2026-11-15"
+    },
+    {
       "id": "dd629e2a0f0ed3967180",
       "title": "Tickets für die Danceperados of Ireland von nn.de",
       "organizer": "Nicht angegeben",
@@ -1249,7 +1216,18 @@
       "source": "Mitspiel",
       "region": false,
       "found_at": "2026-11-12",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
+    },
+    {
+      "id": "c32c74c57d01727892c1",
+      "title": "Woodstock der Blasmusik Tagestickets gewinnen",
+      "organizer": "Woodstock der Blasmusik",
+      "deadline": "2026-11-18",
+      "url": "https://www.gewinnhai.de/gewinnspiel/woodstock-der-blasmusik-tagestickets-gewinnen-4512",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-15",
+      "last_seen": "2026-11-15"
     },
     {
       "id": "81336fa3838a51cf050f",
@@ -1293,7 +1271,7 @@
       "source": "GiveOwl",
       "region": false,
       "found_at": "2026-11-05",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "2d7601b9d3c29124bbf8",
@@ -1329,6 +1307,17 @@
       "last_seen": "2026-11-13"
     },
     {
+      "id": "db8f4372eab51367aac0",
+      "title": "Eine Sony PlayStation 5 Pro und ein 100-Euro-Gutschein für den PlayStation Store von bild.de",
+      "organizer": "Nicht angegeben",
+      "deadline": "2026-11-19",
+      "url": "https://mitspiel.com/gewinnspiele/fuer-gaming-fans-verlost-werden-eine-sony-playstation-5-pro-und-ein-100-euro-gutschein-fuer-den-playstation-store-gewinnen-27642",
+      "source": "Mitspiel",
+      "region": false,
+      "found_at": "2026-11-15",
+      "last_seen": "2026-11-15"
+    },
+    {
       "id": "3cabf566bfe9cb85ddf3",
       "title": "Enkelkind.de Gewinnspiel",
       "organizer": "Nicht angegeben",
@@ -1338,6 +1327,17 @@
       "region": false,
       "found_at": "2026-11-10",
       "last_seen": "2026-11-11"
+    },
+    {
+      "id": "edf5c050dc78515b1774",
+      "title": "Evil Dead Burn Blu-ray gewinnen",
+      "organizer": "Plaion Pictures",
+      "deadline": "2026-11-19",
+      "url": "https://www.gewinnhai.de/gewinnspiel/evil-dead-burn-blu-ray-gewinnen-4536",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-15",
+      "last_seen": "2026-11-15"
     },
     {
       "id": "11a0d4e6b9a29dff6b1a",
@@ -1415,6 +1415,17 @@
       "region": false,
       "found_at": "2026-11-07",
       "last_seen": "2026-11-07"
+    },
+    {
+      "id": "686f5233f570b8ef452d",
+      "title": "Übernachtungspaket in Podersdorf gewinnen",
+      "organizer": "Krone",
+      "deadline": "2026-11-19",
+      "url": "https://www.gewinnhai.de/gewinnspiel/uebernachtungspaket-in-podersdorf-gewinnen-4531",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-15",
+      "last_seen": "2026-11-15"
     },
     {
       "id": "8ffea15ab8ec925df6ae",
@@ -1612,7 +1623,7 @@
       "source": "GiveOwl",
       "region": false,
       "found_at": "2026-11-05",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "923d7735e2211ee21ffe",
@@ -1700,7 +1711,7 @@
       "source": "GiveOwl",
       "region": false,
       "found_at": "2026-11-08",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "28387aa28695fc4f94e4",
@@ -1733,7 +1744,7 @@
       "source": "Mitspiel",
       "region": false,
       "found_at": "2026-11-12",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "30dbd07c6d42d0ae6322",
@@ -1766,7 +1777,7 @@
       "source": "Mitspiel",
       "region": false,
       "found_at": "2026-11-13",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "13ff977ad9402919e7d0",
@@ -1799,7 +1810,7 @@
       "source": "Mitspiel",
       "region": false,
       "found_at": "2026-11-14",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "e3e0b9deca11bd83e7ce",
@@ -1887,7 +1898,7 @@
       "source": "Mitspiel",
       "region": false,
       "found_at": "2026-11-13",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "d04ee3679666392fcbba",
@@ -1997,7 +2008,7 @@
       "source": "Mitspiel",
       "region": false,
       "found_at": "2026-11-12",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "bf30ffa7896349cf771c",
@@ -2187,6 +2198,28 @@
       "last_seen": "2026-11-14"
     },
     {
+      "id": "290aa0c5036248afd446",
+      "title": "Hörspiel-Adventskalender gewinnen",
+      "organizer": "EUROPA",
+      "deadline": "2026-11-22",
+      "url": "https://www.gewinnhai.de/gewinnspiel/hoerspiel-adventskalender-gewinnen-4532",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-15",
+      "last_seen": "2026-11-15"
+    },
+    {
+      "id": "e6d86163aeacabcc4cf7",
+      "title": "Hörspiel-Adventskalender gewinnen",
+      "organizer": "EUROPA",
+      "deadline": "2026-11-22",
+      "url": "https://www.gewinnhai.de/gewinnspiel/hoerspiel-adventskalender-gewinnen-4541",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-15",
+      "last_seen": "2026-11-15"
+    },
+    {
       "id": "ba7fc8e4a67c3bfa1fc4",
       "title": "Josef Schneider redaktion24 e.K. Gewinnspiel",
       "organizer": "Nicht angegeben",
@@ -2206,7 +2239,7 @@
       "source": "GiveOwl",
       "region": false,
       "found_at": "2026-11-05",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "ba39304ec57e9290ad77",
@@ -2228,7 +2261,7 @@
       "source": "GewinnHai",
       "region": false,
       "found_at": "2026-11-14",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "119f11055806f2cb8015",
@@ -2239,7 +2272,7 @@
       "source": "GiveOwl",
       "region": false,
       "found_at": "2026-11-05",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "0f80da2c7b1c4b35b437",
@@ -2262,6 +2295,17 @@
       "region": false,
       "found_at": "2026-11-07",
       "last_seen": "2026-11-07"
+    },
+    {
+      "id": "ff5388880852b8f53770",
+      "title": "Nightborn Blu-ray gewinnen",
+      "organizer": "Pierrot Le Fou",
+      "deadline": "2026-11-22",
+      "url": "https://www.gewinnhai.de/gewinnspiel/nightborn-blu-ray-gewinnen-4535",
+      "source": "GewinnHai",
+      "region": false,
+      "found_at": "2026-11-15",
+      "last_seen": "2026-11-15"
     },
     {
       "id": "267e35309cbb4274d578",
@@ -2360,7 +2404,7 @@
       "source": "Mitspiel",
       "region": false,
       "found_at": "2026-11-12",
-      "last_seen": "2026-11-14"
+      "last_seen": "2026-11-15"
     },
     {
       "id": "1f853a83e5542c6adc6b",
@@ -2394,50 +2438,6 @@
       "region": false,
       "found_at": "2026-11-10",
       "last_seen": "2026-11-10"
-    },
-    {
-      "id": "82b269f100121b5302b1",
-      "title": "BLUEY’S HAPPY SNAPS für Nintendo Switch 2 von Die Red",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-23",
-      "url": "https://mitspiel.com/gewinnspiele/bluey-s-happy-snaps-gewinnspiel-27192",
-      "source": "Mitspiel",
-      "region": false,
-      "found_at": "2026-11-10",
-      "last_seen": "2026-11-10"
-    },
-    {
-      "id": "7ef14590b853f09bf5dc",
-      "title": "Jas Tickets gewinnen",
-      "organizer": "MeinBezirk",
-      "deadline": "2026-11-23",
-      "url": "https://www.gewinnhai.de/gewinnspiel/jas-tickets-gewinnen-4466",
-      "source": "GewinnHai",
-      "region": false,
-      "found_at": "2026-11-14",
-      "last_seen": "2026-11-14"
-    },
-    {
-      "id": "94c1e9f08ac9f6d4a201",
-      "title": "MORE Nutrition Black Week 2026: Lappland-Reise und iPhone",
-      "organizer": "Nicht angegeben",
-      "deadline": "2026-11-23",
-      "url": "https://giveowl.com/e/more-nutrition-quality-first-gmbh--more-nutrition-black-week-2026-lappland-reise-und-iphone--2026",
-      "source": "GiveOwl",
-      "region": false,
-      "found_at": "2026-11-14",
-      "last_seen": "2026-11-14"
-    },
-    {
-      "id": "aa9e997720b7e5fe0692",
-      "title": "Flight 298 Blu-ray gewinnen",
-      "organizer": "Leonine Studios",
-      "deadline": "2026-11-24",
-      "url": "https://www.gewinnhai.de/gewinnspiel/flight-298-blu-ray-gewinnen-4482",
-      "source": "GewinnHai",
-      "region": false,
-      "found_at": "2026-11-14",
-      "last_seen": "2026-11-14"
     }
   ]
 }
